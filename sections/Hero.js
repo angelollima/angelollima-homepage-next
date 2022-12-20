@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Angelo from '../public/img/Angelo.jpeg';
 
-import Button from '../components/Button'
+import Button from '../components/Button';
 
-import { GoMarkGithub } from 'react-icons/go'
-import { BsLinkedin } from 'react-icons/bs'
+import { GoMarkGithub } from 'react-icons/go';
+import { BsLinkedin } from 'react-icons/bs';
 
 export default function Hero() {
 
@@ -12,7 +13,7 @@ export default function Hero() {
             <div className="flex justify-center">
                 <div className="border rounded-full shadow-r_b_shadow">
                     <Image 
-                        src="/../public/img/Angelo.jpeg"
+                        src={Angelo}
                         priority={true}
                         alt="Angelo photo"
                         width="160"
