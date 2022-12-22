@@ -1,5 +1,5 @@
+//Importing libraries
 import Spline from '@splinetool/react-spline';
-
 import { motion } from 'framer-motion';
 
 function SunIcon({ onClick }) {

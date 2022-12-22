@@ -1,6 +1,6 @@
+//Importing libraries
 import { Swiper } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper'
-
+import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import 'swiper/css';

@@ -1,7 +1,12 @@
+//Importing components from Next
 import Head from "next/head";
-import NavBar from '../sections/NavBar'
-import Footer from '../sections/Footer'
+
+//Importing layouts
 import Keyboad from "./KeyBoard";
+
+//Importing sections
+import NavBar from '../sections/NavBar';
+import Footer from '../sections/Footer';
 
 export default function Layout({ children }) {
     return (

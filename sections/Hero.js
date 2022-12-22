@@ -1,10 +1,15 @@
+//Importing components from Next
 import Image from 'next/image';
-import Angelo from '../public/img/Angelo.jpeg';
 
-import Button from '../components/Button';
-
+//Importing icons from Reac-Icons
 import { GoMarkGithub } from 'react-icons/go';
 import { BsLinkedin } from 'react-icons/bs';
+
+//Importing layouts
+import Button from '../components/Button';
+
+//Importing images
+import Angelo from '../public/img/Angelo.jpeg';
 
 export default function Hero() {
 

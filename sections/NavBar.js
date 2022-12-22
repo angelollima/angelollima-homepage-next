@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+//Importing components from Next/React
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
+import React, { useState } from 'react';
 
+//Importing layouts
 import { SunIcon, MoonIcon } from "../components/Events3D";
 import OpenNavBar from '../components/OpenNavBar';
 import CloseNavBar from '../components/CloseNavBar';
@@ -15,7 +17,7 @@ export default function NavBar() {
 
     const navigations =[
       { label: 'About', path: '/' },
-      { label: 'Projects', path: '/Projects' },
+      { label: 'Projects', path: '/projects' },
     ];
   
     const renderThemeChanger = () => {

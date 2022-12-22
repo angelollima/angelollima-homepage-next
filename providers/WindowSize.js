@@ -1,3 +1,4 @@
+//Import components from React
 import { useLayoutEffect, useState } from 'react';
 
 export default function WindowSize() {

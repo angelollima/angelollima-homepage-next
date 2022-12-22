@@ -1,4 +1,7 @@
+//Importing layouts
 import { KeyboardMobile, KeyboardPc } from './Events3D';
+
+//Importing providers
 import WindowSize from '../providers/WindowSize';
 
 export default function Keyboad({ className }) {

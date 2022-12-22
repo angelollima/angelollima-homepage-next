@@ -1,4 +1,7 @@
+//Importing libraries 
 import { motion } from 'framer-motion';
+
+//Importing icons from React_Icons
 import { HiMenu } from 'react-icons/hi';
 
 export default function OpenNavBar(props) {
