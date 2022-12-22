@@ -11,7 +11,16 @@ import Button from '../../components/Button';
 import Stickers from '../../public/img/Stickers.png';
 import CalculatorPython from '../../public/img/CalculatorPython.png';
 
-export function StickersGenerator() {
+export default function BackEndProjects() {
+    return (
+        <div className="space-y-6">
+            <StickersGenerator />
+            <Calculator />
+        </div>
+    )
+}
+
+function StickersGenerator() {
     return (
         <div className="space-y-4">
             <h1 className="text-[15px] font-semibold text-center">Stickers Generator</h1>
@@ -25,7 +34,7 @@ export function StickersGenerator() {
     )
 }
 
-export function Calculator() {
+function Calculator() {
     return (
         <div className="space-y-4">
             <h1 className="text-[15px] font-semibold text-center">Calculator</h1>

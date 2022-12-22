@@ -19,7 +19,17 @@ import LandingPageLight from '../../public/img/landing-page-light.png';
 import LandingPageCreateLight from '../../public/img/landing-page-create-light.png';
 import Watch from '../../public/img/watch.png';
 
-export function MemoryGame() {
+export default function FrontEndProjects() {
+    return (
+        <div className="space-y-6">
+            <MemoryGame />
+            <LandingPage />
+            <DigitalWatch />
+        </div>
+    )
+}
+
+function MemoryGame() {
     return (
 <       div className="space-y-4">
             <h1 className="text-[15px] font-semibold text-center">Memory Game</h1>
@@ -38,7 +48,7 @@ export function MemoryGame() {
     )
 }
 
-export function LandingPage() {
+function LandingPage() {
     return (
         <div className="space-y-4">
             <h1 className="text-[15px] font-semibold text-center">Landing Page</h1>
@@ -59,7 +69,7 @@ export function LandingPage() {
     )
 }
 
-export function DigitalWatch() {
+function DigitalWatch() {
     return (
         <div className="space-y-4">
             <h1 className="text-[15px] font-semibold text-center">Digital Watch</h1>

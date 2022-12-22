@@ -5,8 +5,8 @@ import Button from '../../components/Button';
 import { GoMarkGithub } from 'react-icons/go'
 
 //Importing projects
-import { MemoryGame, LandingPage, DigitalWatch } from './FrontEndProjects';
-import { StickersGenerator, Calculator } from './BackEndProjects';
+import FrontEndProjects from './FrontEndProjects';
+import BackEndProjects from './BackEndProjects';
 
 
 export default function Projects() {
@@ -25,19 +25,12 @@ export default function Projects() {
             <div className="flex flex-col gap-8 text-center">
                 <div id="front-end" className="space-y-4">
                     <h1 className="text-[17px] text-center underline font-semibold">Front-end Projects</h1>
-                    <div className="space-y-6">
-                        <MemoryGame />
-                        <LandingPage />
-                        <DigitalWatch />
-                    </div>
+                        <FrontEndProjects />
                 </div>
 
                 <div id="back-end" className="space-y-4">
                     <h1 className="text-[17px] text-center underline font-semibold">Back-end Projects</h1>
-                    <div className="space-y-6">
-                        <StickersGenerator />
-                        <Calculator />
-                    </div>
+                        <BackEndProjects />
                 </div>
             </div>
         </div>
