@@ -1,5 +1,8 @@
-import { HiX } from 'react-icons/hi';
+//Importing libraries
 import { motion } from 'framer-motion';
+
+//Importing icons from React-Icons
+import { HiX } from 'react-icons/hi';
 
 export default function CloseNavBar(props) {
   return (
